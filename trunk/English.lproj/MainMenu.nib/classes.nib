@@ -1,0 +1,23 @@
+{
+    IBClasses = (
+        {CLASS = BPMButton; LANGUAGE = ObjC; SUPERCLASS = NSButton; }, 
+        {
+            ACTIONS = {beat = id; decreaseBPM = id; increaseBPM = id; setCurrentTrackBPM = id; }; 
+            CLASS = BPMController; 
+            LANGUAGE = ObjC; 
+            OUTLETS = {
+                BPMFloater = NSWindow; 
+                beatButton = NSButton; 
+                beatButtonL = NSButton; 
+                beatButtonR = NSButton; 
+                beatField = NSTextField; 
+            }; 
+            SUPERCLASS = NSObject; 
+        }, 
+        {CLASS = FirstResponder; LANGUAGE = ObjC; SUPERCLASS = NSObject; }, 
+        {CLASS = InertButton; LANGUAGE = ObjC; SUPERCLASS = NSButton; }, 
+        {CLASS = MenuButton; LANGUAGE = ObjC; SUPERCLASS = NSButton; }, 
+        {CLASS = SBiTunesInspector; LANGUAGE = ObjC; SUPERCLASS = NSPanel; }
+    ); 
+    IBVersion = 1; 
+}

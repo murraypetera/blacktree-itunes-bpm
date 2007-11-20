@@ -1,0 +1,467 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 42;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E15E0729055C8AB000EE5A56 /* iTunes-BPM_Prefix.h in Headers */ = {isa = PBXBuildFile; fileRef = 32CA4F630368D1EE00C91783 /* iTunes-BPM_Prefix.h */; };
+		E15E072A055C8AB000EE5A56 /* BPMController.h in Headers */ = {isa = PBXBuildFile; fileRef = E1627B92045DAEEB00000209 /* BPMController.h */; };
+		E15E072B055C8AB000EE5A56 /* SBiTunesInspector.h in Headers */ = {isa = PBXBuildFile; fileRef = E1627B96045DB00B00000209 /* SBiTunesInspector.h */; };
+		E15E072C055C8AB000EE5A56 /* InertButton.h in Headers */ = {isa = PBXBuildFile; fileRef = E1627BBA045DD74D00000209 /* InertButton.h */; };
+		E15E072D055C8AB000EE5A56 /* BPMApp.h in Headers */ = {isa = PBXBuildFile; fileRef = E16ED37804669AC000000209 /* BPMApp.h */; };
+		E15E072E055C8AB000EE5A56 /* HotKeyCenter.h in Headers */ = {isa = PBXBuildFile; fileRef = E168CEE1046852AF00A80B4B /* HotKeyCenter.h */; };
+		E15E072F055C8AB000EE5A56 /* KeyBroadcaster.h in Headers */ = {isa = PBXBuildFile; fileRef = E168CEE3046852AF00A80B4B /* KeyBroadcaster.h */; };
+		E15E0730055C8AB000EE5A56 /* KeyCombo.h in Headers */ = {isa = PBXBuildFile; fileRef = E168CEE5046852AF00A80B4B /* KeyCombo.h */; };
+		E15E0731055C8AB000EE5A56 /* KeyComboPanel.h in Headers */ = {isa = PBXBuildFile; fileRef = E168CEE7046852AF00A80B4B /* KeyComboPanel.h */; };
+		E15E0732055C8AB000EE5A56 /* BPMButton.h in Headers */ = {isa = PBXBuildFile; fileRef = E162680204701E5500000209 /* BPMButton.h */; };
+		E15E0735055C8AB000EE5A56 /* MainMenu.nib in Resources */ = {isa = PBXBuildFile; fileRef = 29B97318FDCFA39411CA2CEA /* MainMenu.nib */; };
+		E15E0736055C8AB000EE5A56 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 089C165CFE840E0CC02AAC07 /* InfoPlist.strings */; };
+		E15E0737055C8AB000EE5A56 /* TextureDivot_On.tiff in Resources */ = {isa = PBXBuildFile; fileRef = E1627B9A045DC0A800000209 /* TextureDivot_On.tiff */; };
+		E15E0738055C8AB000EE5A56 /* TextureDivot.tiff in Resources */ = {isa = PBXBuildFile; fileRef = E1627B9B045DC0A800000209 /* TextureDivot.tiff */; };
+		E15E0739055C8AB000EE5A56 /* BPM Inspector.scpt in Resources */ = {isa = PBXBuildFile; fileRef = E167B6BE045DE47F00000209 /* BPM Inspector.scpt */; };
+		E15E073A055C8AB000EE5A56 /* iTunes-BPM.icns in Resources */ = {isa = PBXBuildFile; fileRef = E1BD4963045E898B00000209 /* iTunes-BPM.icns */; };
+		E15E073B055C8AB000EE5A56 /* beatRegular.png in Resources */ = {isa = PBXBuildFile; fileRef = E1BD4976045EAEF300000209 /* beatRegular.png */; };
+		E15E073C055C8AB000EE5A56 /* beatPressed.png in Resources */ = {isa = PBXBuildFile; fileRef = E1BD4977045EAEF300000209 /* beatPressed.png */; };
+		E15E073D055C8AB000EE5A56 /* KeyCodes.plist in Resources */ = {isa = PBXBuildFile; fileRef = E168CEDD046852AF00A80B4B /* KeyCodes.plist */; };
+		E15E073E055C8AB000EE5A56 /* NIB Files in Resources */ = {isa = PBXBuildFile; fileRef = E168CEDF046852AF00A80B4B /* NIB Files */; };
+		E15E0740055C8AB000EE5A56 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; settings = {ATTRIBUTES = (); }; };
+		E15E0741055C8AB000EE5A56 /* BPMController.m in Sources */ = {isa = PBXBuildFile; fileRef = E1627B93045DAEEB00000209 /* BPMController.m */; };
+		E15E0742055C8AB000EE5A56 /* SBiTunesInspector.m in Sources */ = {isa = PBXBuildFile; fileRef = E1627B97045DB00B00000209 /* SBiTunesInspector.m */; };
+		E15E0743055C8AB000EE5A56 /* InertButton.m in Sources */ = {isa = PBXBuildFile; fileRef = E1627BBB045DD74D00000209 /* InertButton.m */; };
+		E15E0744055C8AB000EE5A56 /* BPMApp.m in Sources */ = {isa = PBXBuildFile; fileRef = E16ED37904669AC000000209 /* BPMApp.m */; };
+		E15E0745055C8AB000EE5A56 /* HotKeyCenter.m in Sources */ = {isa = PBXBuildFile; fileRef = E168CEE2046852AF00A80B4B /* HotKeyCenter.m */; };
+		E15E0746055C8AB000EE5A56 /* KeyBroadcaster.m in Sources */ = {isa = PBXBuildFile; fileRef = E168CEE4046852AF00A80B4B /* KeyBroadcaster.m */; };
+		E15E0747055C8AB000EE5A56 /* KeyCombo.m in Sources */ = {isa = PBXBuildFile; fileRef = E168CEE6046852AF00A80B4B /* KeyCombo.m */; };
+		E15E0748055C8AB000EE5A56 /* KeyComboPanel.m in Sources */ = {isa = PBXBuildFile; fileRef = E168CEE8046852AF00A80B4B /* KeyComboPanel.m */; };
+		E15E0749055C8AB000EE5A56 /* BPMButton.m in Sources */ = {isa = PBXBuildFile; fileRef = E162680304701E5500000209 /* BPMButton.m */; };
+		E15E074C055C8AB000EE5A56 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */; };
+		E15E074D055C8AB000EE5A56 /* Carbon.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E1BD49A1045ECEDC00000209 /* Carbon.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		089C165DFE840E0CC02AAC07 /* English */ = {isa = PBXFileReference; fileEncoding = 10; lastKnownFileType = text.plist.strings; name = English; path = English.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = /System/Library/Frameworks/Cocoa.framework; sourceTree = "<absolute>"; };
+		29B97316FDCFA39411CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		29B97319FDCFA39411CA2CEA /* English */ = {isa = PBXFileReference; lastKnownFileType = wrapper.nib; name = English; path = English.lproj/MainMenu.nib; sourceTree = "<group>"; };
+		29B97324FDCFA39411CA2CEA /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = /System/Library/Frameworks/AppKit.framework; sourceTree = "<absolute>"; };
+		29B97325FDCFA39411CA2CEA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = /System/Library/Frameworks/Foundation.framework; sourceTree = "<absolute>"; };
+		32CA4F630368D1EE00C91783 /* iTunes-BPM_Prefix.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "iTunes-BPM_Prefix.h"; sourceTree = "<group>"; };
+		7F6D5A8F09C3089F00FD3AD3 /* NSWorkspace_BLTRExtensions.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = NSWorkspace_BLTRExtensions.h; sourceTree = "<group>"; };
+		7F6D5A9009C3089F00FD3AD3 /* NSWorkspace_BLTRExtensions.m */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.objc; path = NSWorkspace_BLTRExtensions.m; sourceTree = "<group>"; };
+		E15E074F055C8AB000EE5A56 /* Info-iTunes_BPM.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "Info-iTunes_BPM.plist"; sourceTree = "<group>"; };
+		E15E0750055C8AB000EE5A56 /* iTunes-BPM.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "iTunes-BPM.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E162680204701E5500000209 /* BPMButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BPMButton.h; sourceTree = "<group>"; };
+		E162680304701E5500000209 /* BPMButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BPMButton.m; sourceTree = "<group>"; };
+		E1627B92045DAEEB00000209 /* BPMController.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = BPMController.h; sourceTree = "<group>"; };
+		E1627B93045DAEEB00000209 /* BPMController.m */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.objc; path = BPMController.m; sourceTree = "<group>"; };
+		E1627B96045DB00B00000209 /* SBiTunesInspector.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = SBiTunesInspector.h; sourceTree = "<group>"; };
+		E1627B97045DB00B00000209 /* SBiTunesInspector.m */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.objc; path = SBiTunesInspector.m; sourceTree = "<group>"; };
+		E1627B9A045DC0A800000209 /* TextureDivot_On.tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = TextureDivot_On.tiff; sourceTree = "<group>"; };
+		E1627B9B045DC0A800000209 /* TextureDivot.tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = TextureDivot.tiff; sourceTree = "<group>"; };
+		E1627BBA045DD74D00000209 /* InertButton.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = InertButton.h; sourceTree = "<group>"; };
+		E1627BBB045DD74D00000209 /* InertButton.m */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.objc; path = InertButton.m; sourceTree = "<group>"; };
+		E167B6BE045DE47F00000209 /* BPM Inspector.scpt */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.scpt; path = "BPM Inspector.scpt"; sourceTree = "<group>"; };
+		E168CEDE046852AF00A80B4B /* English */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = text.plist; name = English; path = English.lproj/KeyCodes.plist; sourceTree = "<group>"; };
+		E168CEE0046852AF00A80B4B /* English */ = {isa = PBXFileReference; lastKnownFileType = folder; name = English; path = "English.lproj/NIB Files"; sourceTree = "<group>"; };
+		E168CEE1046852AF00A80B4B /* HotKeyCenter.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = HotKeyCenter.h; sourceTree = "<group>"; };
+		E168CEE2046852AF00A80B4B /* HotKeyCenter.m */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.objc; path = HotKeyCenter.m; sourceTree = "<group>"; };
+		E168CEE3046852AF00A80B4B /* KeyBroadcaster.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = KeyBroadcaster.h; sourceTree = "<group>"; };
+		E168CEE4046852AF00A80B4B /* KeyBroadcaster.m */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.objc; path = KeyBroadcaster.m; sourceTree = "<group>"; };
+		E168CEE5046852AF00A80B4B /* KeyCombo.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = KeyCombo.h; sourceTree = "<group>"; };
+		E168CEE6046852AF00A80B4B /* KeyCombo.m */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.objc; path = KeyCombo.m; sourceTree = "<group>"; };
+		E168CEE7046852AF00A80B4B /* KeyComboPanel.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = KeyComboPanel.h; sourceTree = "<group>"; };
+		E168CEE8046852AF00A80B4B /* KeyComboPanel.m */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.objc; path = KeyComboPanel.m; sourceTree = "<group>"; };
+		E16ED37804669AC000000209 /* BPMApp.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = BPMApp.h; sourceTree = "<group>"; };
+		E16ED37904669AC000000209 /* BPMApp.m */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.objc; path = BPMApp.m; sourceTree = "<group>"; };
+		E1BD4963045E898B00000209 /* iTunes-BPM.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = "iTunes-BPM.icns"; sourceTree = "<group>"; };
+		E1BD4976045EAEF300000209 /* beatRegular.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = beatRegular.png; sourceTree = "<group>"; };
+		E1BD4977045EAEF300000209 /* beatPressed.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = beatPressed.png; sourceTree = "<group>"; };
+		E1BD49A1045ECEDC00000209 /* Carbon.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Carbon.framework; path = /System/Library/Frameworks/Carbon.framework; sourceTree = "<absolute>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E15E074B055C8AB000EE5A56 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E15E074C055C8AB000EE5A56 /* Cocoa.framework in Frameworks */,
+				E15E074D055C8AB000EE5A56 /* Carbon.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		080E96DDFE201D6D7F000001 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				E16ED37804669AC000000209 /* BPMApp.h */,
+				E16ED37904669AC000000209 /* BPMApp.m */,
+				E1627B92045DAEEB00000209 /* BPMController.h */,
+				E1627B93045DAEEB00000209 /* BPMController.m */,
+				E1627B96045DB00B00000209 /* SBiTunesInspector.h */,
+				E1627B97045DB00B00000209 /* SBiTunesInspector.m */,
+				E1627BBA045DD74D00000209 /* InertButton.h */,
+				E1627BBB045DD74D00000209 /* InertButton.m */,
+			);
+			name = Classes;
+			sourceTree = "<group>";
+		};
+		1058C7A0FEA54F0111CA2CBB /* Linked Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */,
+			);
+			name = "Linked Frameworks";
+			sourceTree = "<group>";
+		};
+		1058C7A2FEA54F0111CA2CBB /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				29B97325FDCFA39411CA2CEA /* Foundation.framework */,
+				29B97324FDCFA39411CA2CEA /* AppKit.framework */,
+				E1BD49A1045ECEDC00000209 /* Carbon.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		19C28FACFE9D520D11CA2CBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E15E0750055C8AB000EE5A56 /* iTunes-BPM.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		29B97314FDCFA39411CA2CEA /* iTunes-BPM */ = {
+			isa = PBXGroup;
+			children = (
+				7F6D5A8F09C3089F00FD3AD3 /* NSWorkspace_BLTRExtensions.h */,
+				7F6D5A9009C3089F00FD3AD3 /* NSWorkspace_BLTRExtensions.m */,
+				E168CEDB046852AF00A80B4B /* HotKeysLib */,
+				080E96DDFE201D6D7F000001 /* Classes */,
+				29B97315FDCFA39411CA2CEA /* Other Sources */,
+				29B97317FDCFA39411CA2CEA /* Resources */,
+				29B97323FDCFA39411CA2CEA /* Frameworks */,
+				19C28FACFE9D520D11CA2CBB /* Products */,
+				E162680204701E5500000209 /* BPMButton.h */,
+				E162680304701E5500000209 /* BPMButton.m */,
+				E15E074F055C8AB000EE5A56 /* Info-iTunes_BPM.plist */,
+			);
+			name = "iTunes-BPM";
+			sourceTree = "<group>";
+		};
+		29B97315FDCFA39411CA2CEA /* Other Sources */ = {
+			isa = PBXGroup;
+			children = (
+				32CA4F630368D1EE00C91783 /* iTunes-BPM_Prefix.h */,
+				29B97316FDCFA39411CA2CEA /* main.m */,
+			);
+			name = "Other Sources";
+			sourceTree = "<group>";
+		};
+		29B97317FDCFA39411CA2CEA /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				E1BD4976045EAEF300000209 /* beatRegular.png */,
+				E1BD4977045EAEF300000209 /* beatPressed.png */,
+				E1BD4963045E898B00000209 /* iTunes-BPM.icns */,
+				E167B6BE045DE47F00000209 /* BPM Inspector.scpt */,
+				E1627B9A045DC0A800000209 /* TextureDivot_On.tiff */,
+				E1627B9B045DC0A800000209 /* TextureDivot.tiff */,
+				29B97318FDCFA39411CA2CEA /* MainMenu.nib */,
+				089C165CFE840E0CC02AAC07 /* InfoPlist.strings */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		29B97323FDCFA39411CA2CEA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1058C7A0FEA54F0111CA2CBB /* Linked Frameworks */,
+				1058C7A2FEA54F0111CA2CBB /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E168CEDB046852AF00A80B4B /* HotKeysLib */ = {
+			isa = PBXGroup;
+			children = (
+				E168CEDD046852AF00A80B4B /* KeyCodes.plist */,
+				E168CEDF046852AF00A80B4B /* NIB Files */,
+				E168CEE1046852AF00A80B4B /* HotKeyCenter.h */,
+				E168CEE2046852AF00A80B4B /* HotKeyCenter.m */,
+				E168CEE3046852AF00A80B4B /* KeyBroadcaster.h */,
+				E168CEE4046852AF00A80B4B /* KeyBroadcaster.m */,
+				E168CEE5046852AF00A80B4B /* KeyCombo.h */,
+				E168CEE6046852AF00A80B4B /* KeyCombo.m */,
+				E168CEE7046852AF00A80B4B /* KeyComboPanel.h */,
+				E168CEE8046852AF00A80B4B /* KeyComboPanel.m */,
+			);
+			path = HotKeysLib;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		E15E0728055C8AB000EE5A56 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E15E0729055C8AB000EE5A56 /* iTunes-BPM_Prefix.h in Headers */,
+				E15E072A055C8AB000EE5A56 /* BPMController.h in Headers */,
+				E15E072B055C8AB000EE5A56 /* SBiTunesInspector.h in Headers */,
+				E15E072C055C8AB000EE5A56 /* InertButton.h in Headers */,
+				E15E072D055C8AB000EE5A56 /* BPMApp.h in Headers */,
+				E15E072E055C8AB000EE5A56 /* HotKeyCenter.h in Headers */,
+				E15E072F055C8AB000EE5A56 /* KeyBroadcaster.h in Headers */,
+				E15E0730055C8AB000EE5A56 /* KeyCombo.h in Headers */,
+				E15E0731055C8AB000EE5A56 /* KeyComboPanel.h in Headers */,
+				E15E0732055C8AB000EE5A56 /* BPMButton.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		E15E0727055C8AB000EE5A56 /* iTunes-BPM */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7FE89A12085DC2E10016C421 /* Build configuration list for PBXNativeTarget "iTunes-BPM" */;
+			buildPhases = (
+				E15E0728055C8AB000EE5A56 /* Headers */,
+				E15E0734055C8AB000EE5A56 /* Resources */,
+				E15E073F055C8AB000EE5A56 /* Sources */,
+				E15E074B055C8AB000EE5A56 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "iTunes-BPM";
+			productInstallPath = "$(HOME)/Applications";
+			productName = "iTunes-BPM";
+			productReference = E15E0750055C8AB000EE5A56 /* iTunes-BPM.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		29B97313FDCFA39411CA2CEA /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = 7FE89A16085DC2E10016C421 /* Build configuration list for PBXProject "iTunes-BPM" */;
+			compatibilityVersion = "Xcode 2.4";
+			hasScannedForEncodings = 1;
+			mainGroup = 29B97314FDCFA39411CA2CEA /* iTunes-BPM */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E15E0727055C8AB000EE5A56 /* iTunes-BPM */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E15E0734055C8AB000EE5A56 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E15E0735055C8AB000EE5A56 /* MainMenu.nib in Resources */,
+				E15E0736055C8AB000EE5A56 /* InfoPlist.strings in Resources */,
+				E15E0737055C8AB000EE5A56 /* TextureDivot_On.tiff in Resources */,
+				E15E0738055C8AB000EE5A56 /* TextureDivot.tiff in Resources */,
+				E15E0739055C8AB000EE5A56 /* BPM Inspector.scpt in Resources */,
+				E15E073A055C8AB000EE5A56 /* iTunes-BPM.icns in Resources */,
+				E15E073B055C8AB000EE5A56 /* beatRegular.png in Resources */,
+				E15E073C055C8AB000EE5A56 /* beatPressed.png in Resources */,
+				E15E073D055C8AB000EE5A56 /* KeyCodes.plist in Resources */,
+				E15E073E055C8AB000EE5A56 /* NIB Files in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E15E073F055C8AB000EE5A56 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E15E0740055C8AB000EE5A56 /* main.m in Sources */,
+				E15E0741055C8AB000EE5A56 /* BPMController.m in Sources */,
+				E15E0742055C8AB000EE5A56 /* SBiTunesInspector.m in Sources */,
+				E15E0743055C8AB000EE5A56 /* InertButton.m in Sources */,
+				E15E0744055C8AB000EE5A56 /* BPMApp.m in Sources */,
+				E15E0745055C8AB000EE5A56 /* HotKeyCenter.m in Sources */,
+				E15E0746055C8AB000EE5A56 /* KeyBroadcaster.m in Sources */,
+				E15E0747055C8AB000EE5A56 /* KeyCombo.m in Sources */,
+				E15E0748055C8AB000EE5A56 /* KeyComboPanel.m in Sources */,
+				E15E0749055C8AB000EE5A56 /* BPMButton.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		089C165CFE840E0CC02AAC07 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				089C165DFE840E0CC02AAC07 /* English */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		29B97318FDCFA39411CA2CEA /* MainMenu.nib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				29B97319FDCFA39411CA2CEA /* English */,
+			);
+			name = MainMenu.nib;
+			sourceTree = "<group>";
+		};
+		E168CEDD046852AF00A80B4B /* KeyCodes.plist */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E168CEDE046852AF00A80B4B /* English */,
+			);
+			name = KeyCodes.plist;
+			sourceTree = "<group>";
+		};
+		E168CEDF046852AF00A80B4B /* NIB Files */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E168CEE0046852AF00A80B4B /* English */,
+			);
+			name = "NIB Files";
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7FE89A13085DC2E10016C421 /* Development */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+				FRAMEWORK_SEARCH_PATHS = "";
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_FIX_AND_CONTINUE = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "iTunes-BPM_Prefix.h";
+				GCC_WARN_FOUR_CHARACTER_CONSTANTS = NO;
+				GCC_WARN_UNKNOWN_PRAGMAS = NO;
+				HEADER_SEARCH_PATHS = "";
+				INFOPLIST_FILE = "Info-iTunes_BPM.plist";
+				INSTALL_PATH = "$(HOME)/Applications";
+				LIBRARY_SEARCH_PATHS = "";
+				OPTIMIZATION_CFLAGS = "-O0";
+				OTHER_CFLAGS = "";
+				OTHER_LDFLAGS = "";
+				PRODUCT_NAME = "iTunes-BPM";
+				SECTORDER_FLAGS = "";
+				WARNING_CFLAGS = "-Wmost";
+				WRAPPER_EXTENSION = app;
+				ZERO_LINK = YES;
+			};
+			name = Development;
+		};
+		7FE89A14085DC2E10016C421 /* Deployment */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = YES;
+				DEPLOYMENT_POSTPROCESSING = YES;
+				FRAMEWORK_SEARCH_PATHS = "";
+				GCC_ENABLE_FIX_AND_CONTINUE = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "iTunes-BPM_Prefix.h";
+				GCC_WARN_FOUR_CHARACTER_CONSTANTS = NO;
+				GCC_WARN_UNKNOWN_PRAGMAS = NO;
+				HEADER_SEARCH_PATHS = "";
+				INFOPLIST_FILE = "Info-iTunes_BPM.plist";
+				INSTALL_PATH = "$(HOME)/Applications";
+				LIBRARY_SEARCH_PATHS = "";
+				OTHER_CFLAGS = "";
+				OTHER_LDFLAGS = "";
+				PRODUCT_NAME = "iTunes-BPM";
+				SECTORDER_FLAGS = "";
+				WARNING_CFLAGS = "-Wmost";
+				WRAPPER_EXTENSION = app;
+				ZERO_LINK = NO;
+			};
+			name = Deployment;
+		};
+		7FE89A15085DC2E10016C421 /* Default */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = "";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "iTunes-BPM_Prefix.h";
+				GCC_WARN_FOUR_CHARACTER_CONSTANTS = NO;
+				GCC_WARN_UNKNOWN_PRAGMAS = NO;
+				HEADER_SEARCH_PATHS = "";
+				INFOPLIST_FILE = "Info-iTunes_BPM.plist";
+				INSTALL_PATH = "$(HOME)/Applications";
+				LIBRARY_SEARCH_PATHS = "";
+				OTHER_CFLAGS = "";
+				OTHER_LDFLAGS = "";
+				PRODUCT_NAME = "iTunes-BPM";
+				SECTORDER_FLAGS = "";
+				WARNING_CFLAGS = "-Wmost";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Default;
+		};
+		7FE89A17085DC2E10016C421 /* Development */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				SDKROOT = /Developer/SDKs/MacOSX10.4u.sdk;
+			};
+			name = Development;
+		};
+		7FE89A18085DC2E10016C421 /* Deployment */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = (
+					"$(NATIVE_ARCH)",
+					ppc,
+				);
+				SDKROOT = /Developer/SDKs/MacOSX10.4u.sdk;
+			};
+			name = Deployment;
+		};
+		7FE89A19085DC2E10016C421 /* Default */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				SDKROOT = /Developer/SDKs/MacOSX10.4u.sdk;
+			};
+			name = Default;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7FE89A12085DC2E10016C421 /* Build configuration list for PBXNativeTarget "iTunes-BPM" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7FE89A13085DC2E10016C421 /* Development */,
+				7FE89A14085DC2E10016C421 /* Deployment */,
+				7FE89A15085DC2E10016C421 /* Default */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Default;
+		};
+		7FE89A16085DC2E10016C421 /* Build configuration list for PBXProject "iTunes-BPM" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7FE89A17085DC2E10016C421 /* Development */,
+				7FE89A18085DC2E10016C421 /* Deployment */,
+				7FE89A19085DC2E10016C421 /* Default */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Default;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 29B97313FDCFA39411CA2CEA /* Project object */;
+}
