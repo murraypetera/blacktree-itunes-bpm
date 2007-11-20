@@ -1,0 +1,13 @@
+{
+    IBClasses = (
+        {
+            ACTIONS = {hide = id; show = id; }; 
+            CLASS = DaedalWindow; 
+            LANGUAGE = ObjC; 
+            SUPERCLASS = NSPanel; 
+        }, 
+        {CLASS = FirstResponder; LANGUAGE = ObjC; SUPERCLASS = NSObject; }, 
+        {CLASS = InertButton; LANGUAGE = ObjC; SUPERCLASS = NSButton; }
+    ); 
+    IBVersion = 1; 
+}

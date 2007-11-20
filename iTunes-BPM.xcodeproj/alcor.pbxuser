@@ -1,0 +1,180 @@
+// !$*UTF8*$!
+{
+	29B97313FDCFA39411CA2CEA /* Project object */ = {
+		activeArchitecture = i386;
+		activeBuildConfigurationName = Deployment;
+		activeExecutable = 7FE89A03085DC2D30016C421 /* iTunes-BPM */;
+		activeTarget = E15E0727055C8AB000EE5A56 /* iTunes-BPM */;
+		addToTargets = (
+			E15E0727055C8AB000EE5A56 /* iTunes-BPM */,
+		);
+		breakpoints = (
+		);
+		codeSenseManager = 7FE89A1B085DC2E10016C421 /* Code sense */;
+		executables = (
+			7FE89A03085DC2D30016C421 /* iTunes-BPM */,
+		);
+		perUserDictionary = {
+			"PBXConfiguration.PBXBreakpointsDataSource.v1:1CA1AED706398EBD00589147" = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXBreakpointsDataSource_BreakpointID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					20,
+					210,
+					20,
+					110,
+					109,
+					20,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXBreakpointsDataSource_ActionID,
+					PBXBreakpointsDataSource_TypeID,
+					PBXBreakpointsDataSource_BreakpointID,
+					PBXBreakpointsDataSource_UseID,
+					PBXBreakpointsDataSource_LocationID,
+					PBXBreakpointsDataSource_ConditionID,
+					PBXBreakpointsDataSource_ContinueID,
+				);
+			};
+			PBXConfiguration.PBXFileTableDataSource3.PBXExecutablesDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXExecutablesDataSource_NameID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					22,
+					300,
+					131,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXExecutablesDataSource_ActiveFlagID,
+					PBXExecutablesDataSource_NameID,
+					PBXExecutablesDataSource_CommentsID,
+				);
+			};
+			PBXConfiguration.PBXFileTableDataSource3.PBXFileTableDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					243,
+					20,
+					48,
+					43,
+					43,
+					20,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXFileDataSource_FiletypeID,
+					PBXFileDataSource_Filename_ColumnID,
+					PBXFileDataSource_Built_ColumnID,
+					PBXFileDataSource_ObjectSize_ColumnID,
+					PBXFileDataSource_Errors_ColumnID,
+					PBXFileDataSource_Warnings_ColumnID,
+					PBXFileDataSource_Target_ColumnID,
+				);
+			};
+			PBXConfiguration.PBXTargetDataSource.PBXTargetDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					203,
+					60,
+					20,
+					48.16259765625,
+					43,
+					43,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXFileDataSource_FiletypeID,
+					PBXFileDataSource_Filename_ColumnID,
+					PBXTargetDataSource_PrimaryAttribute,
+					PBXFileDataSource_Built_ColumnID,
+					PBXFileDataSource_ObjectSize_ColumnID,
+					PBXFileDataSource_Errors_ColumnID,
+					PBXFileDataSource_Warnings_ColumnID,
+				);
+			};
+			PBXPerProjectTemplateStateSaveDate = 217226890;
+			PBXWorkspaceStateSaveDate = 217226890;
+		};
+		sourceControlManager = 7FE89A1A085DC2E10016C421 /* Source Control */;
+		userBuildSettings = {
+		};
+	};
+	7F6D5A9009C3089F00FD3AD3 /* NSWorkspace_BLTRExtensions.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {878, 6272}}";
+			sepNavSelRange = "{159, 37}";
+			sepNavVisRect = "{{0, 0}, {434, 338}}";
+		};
+	};
+	7FE89A03085DC2D30016C421 /* iTunes-BPM */ = {
+		isa = PBXExecutable;
+		activeArgIndices = (
+		);
+		argumentStrings = (
+		);
+		autoAttachOnCrash = 1;
+		breakpointsEnabled = 0;
+		configStateDict = {
+		};
+		customDataFormattersEnabled = 1;
+		debuggerPlugin = GDBDebugging;
+		disassemblyDisplayState = 0;
+		dylibVariantSuffix = "";
+		enableDebugStr = 1;
+		environmentEntries = (
+		);
+		executableSystemSymbolLevel = 0;
+		executableUserSymbolLevel = 0;
+		libgmallocEnabled = 0;
+		name = "iTunes-BPM";
+		savedGlobals = {
+		};
+		sourceDirectories = (
+		);
+	};
+	7FE89A1A085DC2E10016C421 /* Source Control */ = {
+		isa = PBXSourceControlManager;
+		fallbackIsa = XCSourceControlManager;
+		isSCMEnabled = 0;
+		scmConfiguration = {
+		};
+		scmType = "";
+	};
+	7FE89A1B085DC2E10016C421 /* Code sense */ = {
+		isa = PBXCodeSenseManager;
+		indexTemplatePath = "";
+	};
+	E15E0727055C8AB000EE5A56 /* iTunes-BPM */ = {
+		activeExec = 0;
+		executables = (
+			7FE89A03085DC2D30016C421 /* iTunes-BPM */,
+		);
+	};
+	E15E074F055C8AB000EE5A56 /* Info-iTunes_BPM.plist */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {798, 706}}";
+			sepNavSelRange = "{386, 1}";
+			sepNavVisRange = "{0, 1040}";
+			sepNavWindowFrame = "{{65, 95}, {857, 778}}";
+		};
+	};
+	E1627B93045DAEEB00000209 /* BPMController.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1304, 4676}}";
+			sepNavSelRange = "{2815, 0}";
+			sepNavVisRect = "{{0, 922}, {647, 187}}";
+			sepNavWindowFrame = "{{84, 283}, {995, 651}}";
+		};
+	};
+	E16ED37904669AC000000209 /* BPMApp.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {950, 522}}";
+			sepNavSelRange = "{356, 0}";
+			sepNavVisRect = "{{0, 0}, {950, 522}}";
+			sepNavWindowFrame = "{{107, 262}, {995, 651}}";
+		};
+	};
+}

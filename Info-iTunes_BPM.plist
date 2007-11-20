@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CFBundleDevelopmentRegion</key>
+	<string>English</string>
+	<key>CFBundleExecutable</key>
+	<string>iTunes-BPM</string>
+	<key>CFBundleGetInfoString</key>
+	<string>iTunes-BPM version 1.0.3, Copyright 2005 Blacktree, Inc.</string>
+	<key>CFBundleIconFile</key>
+	<string>iTunes-BPM</string>
+	<key>CFBundleIdentifier</key>
+	<string>com.blacktree.iTunes-BPM</string>
+	<key>CFBundleInfoDictionaryVersion</key>
+	<string>6.0</string>
+	<key>CFBundleName</key>
+	<string>iTunes-BPM</string>
+	<key>CFBundlePackageType</key>
+	<string>APPL</string>
+	<key>CFBundleShortVersionString</key>
+	<string>1.0.3</string>
+	<key>CFBundleSignature</key>
+	<string>????</string>
+	<key>CFBundleVersion</key>
+	<string>12</string>
+	<key>NSMainNibFile</key>
+	<string>MainMenu</string>
+	<key>NSPrincipalClass</key>
+	<string>BPMApp</string>
+	<key>NSUIElement</key>
+	<true/>
+</dict>
+</plist>
